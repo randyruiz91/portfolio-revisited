@@ -4,56 +4,98 @@
 }
 
 .name {
-    border: 5px solid red;
-    color: blue;
+    color: white;
     font-size: xx-large;
     margin-left: 100px;
     display: flex;
     align-items: center;
     cursor: pointer;
-    background-color: black;
+    background-color: transparent;
+    font-family: fantasy;
 }
 
 .right-corner {
-    border: 5px solid blue;
     display: flex;
     flex-direction: row;
 }
 
 .header {
-    border: 5px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: black;
 }
 
 .about-me {
-    border: 3px solid green;
     margin: 5px;
-    color: blue;
+    color: white;
     font-size: x-large;
     margin-right: 50px;
     cursor: pointer;
-    background-color: black;
+    background-color: transparent;
+    font-family: fantasy;
 }
 
 .portfolio {
-    border: 3px solid green;
     margin: 5px;
-    color: blue;
+    color: white;
     font-size: x-large;
     margin-right: 50px;
     cursor: pointer;
-    background-color: black;
+    background-color: transparent;
+    font-family: fantasy;
 }
 
 .contact-me {
-    border: 3px solid green;
     margin: 5px;
-    color: blue;
+    color: white;
     margin-right: 75px;
     font-size: x-large;
     cursor: pointer;
-    background-color: black;
+    background-color: transparent;
+    font-family: fantasy;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.picture {
+    border-radius: 50px;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.middle-name {
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: fantasy;
+}
+
+.statement {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    color: white;
+}
+
+body {
+    background-image: url(skyline.jpeg);
+    background-size: cover;
 }
